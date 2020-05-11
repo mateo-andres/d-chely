@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+  .product {
+    display: block;
+    text-align: center;
+  }
+  .slogan p {
+    font-size: 10px;
+  }
+  .slogan-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slogan p {
+    font-size: 10px;
+  }
+  .slogan-title {
+    font-size: 20px;
+  }
+}
