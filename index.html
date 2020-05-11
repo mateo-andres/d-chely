@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DCheli</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animacion.css">
+  </head>
+  <body>
+    <h2 class="main-title fadeIn">
+      Feliz dia de las madres!! baja para ver la magia <br />
+      💝🍰🧁
+    </h2>
+    <section></section>
+    <div class="container">
+      <div class="slogan">
+        <h1 class="slogan-title">
+          Esto es D'chely el lugar donde la magia del sabor ocurre
+        </h1>
+        <p>
+          panaderia, pasteleria, galleteria, postreria y mucho más, todo en un
+          solo lugar
+        </p>
+        <img id="canela" src="img/canela.png" alt="" />
+      </div>
+      <div class="products-grid">
+        <div class="images img1"></div>
+        <p class="text1">merenguitos y postres</p>
+        <div class="images img2">
+          <!-- <img src="img/cupcakes1.jpg" alt="" /> -->
+        </div>
+        <p class="text2">Tortas y mas postres </p>
+        <div class="images img3">
+          <!-- <img src="img/nieve.jpg" alt="" /> -->
+        </div>
+        <p class="text3">Mas tortas y mas postres</p>
+        <div class="images img4">
+          <!-- <img src="img/suspiros1.jpg" alt="" /> -->
+        </div>
+        <div class="images img5">
+          <!-- <img src="img/unicornio.jpg" alt="" /> -->
+        </div>
+        <p class="text4">ah! y postres</p>
+        <div class="images img6">
+          <!-- <img src="img/galleta.jpg" alt="" /> -->
+        </div>
+        <div class="images img7">
+          <!-- <img src="img/cupcakes.jpg" alt="" /> -->
+        </div>
+      </div>
+      <div class="products-want">
+        <br />
+        <br />
+        <h2 class="product-title">¿Que se te antoja?</h2>
+          <a href="">
+            <div class="product">
+          <div class="producto">
+            <h2>Tortas</h2>
+            <img src="img/pastel.png" alt="" />
+            <p>
+              Puedes elegir entre gran variedad de sabores y colores y el diseño
+              solo dependera de tu imaginación
+            </p>
+          </div>
+          </a>
+          <a href="">
+            <div class="producto">
+            <h2>Galletas</h2>
+            <img src="img/galleta.png" alt="" />
+            <p>galletas con la forma y sabor que tu paladar se merece</p>
+          </div>
+          </a>
+          <a href="">
+            <div class="producto">
+            <h2>Postres</h2>
+            <img src="img/tarta.png" alt="" />
+            <p>
+              los postres no van al estomago, van directo al corazón, por eso
+              tenemos deliciosos y saludables postres postres
+            </p>
+          </div>
+          </a>
+          <a href="">
+            <div class="producto">
+            <h2>Cupcakes</h2>
+            <img src="img/cupcake.png" alt="" />
+            <p>sabrosos cupcakes que pueden alegrarle el día a cualquiera</p>
+          </div>
+          </a>
+        </div>
+      </div>
+      <hr>  
+      <h2 class="product-title">clientes satisfechos</h2>
+      <div class="clientes">
+        <br>
+        <br>
+        <br>
+
+        <div class="cliente fadeInUp">
+          <img src="img/william.jpg" alt="">
+          <h3>William</h3>
+          <p>Tiene picante?</p>
+        </div>
+        <div class="cliente fadeInDown">
+          <img src="img/lucas.jpg" alt="">
+          <h3>Lucas</h3>
+          <p>Quedaron mas o menos ricos 🤷‍♂️</p>
+        </div>
+        <div class="cliente fadeInUp">
+          <img src="img/mateo.jpg" alt="">
+          <h3>Mateo</h3>
+          <p>Muy rico y todo pero, hay ñapa?</p>
+        </div>
+      </div>
+    </div>
+        <footer>
+        <p>contacto@dchely.com</p>
+        <div>
+          <a href="https://www.instagram.com/d_chely_pasteleria/?hl=es-la" class="social-link instagram" target="blanck"></a>
+          <a href="https://www.facebook.com/lida.m.betancur" class="social-link facebook" target="blanck"></a>
+        </div>
+        
+        
+      </footer>
+    
+    <script>
+      var section = document.querySelector("section");
+      window.addEventListener("scroll", function () {
+        var value = window.scrollY;
+        section.style.clipPath = "circle(" + value + "px at center)";
+      });
+    </script>
+  </body>
+</html>
