@@ -1,24 +1,44 @@
 @media screen and (max-width: 1024px) {
+  .container {
+    margin-top: 90vh;
+  }
   .product {
     display: block;
     text-align: center;
   }
+  .cliente {
+    margin: 20px;
+    width: 400px;
+  }
+  .cliente p {
+    font-size: 20px;
+  }
+  .cliente h3 {
+    font-size: 50px;
+  }
   .slogan p {
-    font-size: 10px;
+    font-size: 20px;
   }
   .slogan-title {
-    font-size: 30px;
+    font-size: 45px;
   }
   .products-grid p {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .slogan p {
-    font-size: 10px;
+  footer {
+    height: 100px;
   }
-  .slogan-title {
-    font-size: 20px;
+  footer .instagram {
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+  }
+  footer .facebook {
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+  }
+  footer p {
+    font-size: 30px;
   }
 }

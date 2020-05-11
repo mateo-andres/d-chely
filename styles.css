@@ -32,7 +32,7 @@ section {
 }
 .container {
   position: relative;
-  margin-top: 200vh;
+  margin-top: 150vh;
   background: url("img/fondo.jpg");
   padding: 100px;
 }
